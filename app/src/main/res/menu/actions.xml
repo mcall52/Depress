@@ -5,12 +5,25 @@
     <!-- "Mark Favorite", should appear as action button if possible -->
     <item
         android:id="@+id/action_favorite"
-        android:icon="@drawable/ic_weekend_black_24dp"
+        android:icon="@drawable/ic_1488603255_home"
         android:title="@string/home"
         app:showAsAction="ifRoom"/>
 
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_1488603708_chat"
+        android:title="@string/chat"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/rewards"
+        android:icon="@drawable/ic_1488603624_award_fill"
+        android:title="@string/rewards"
+        app:showAsAction="always"/>
+
     <!-- Settings, should always be in the overflow -->
     <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_1488603506_icons_settings"
         android:title="@string/settings"
         app:showAsAction="ifRoom"/>
 

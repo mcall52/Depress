@@ -2,4 +2,6 @@
     <string name="app_name">Depress</string>
     <string name="home">Home</string>
     <string name="settings">Settings</string>
+    <string name="rewards">Rewards</string>
+    <string name="chat">Chat</string>
 </resources>
